@@ -11,8 +11,7 @@
         class="login_form"
         :model="loginForm"
         :rules="rules"
-        ref="ruleFormRef"
-      >
+        ref="ruleFormRef">
         <el-form-item prop="username">
           <el-input prefix-icon="el-icon-s-custom" v-model="loginForm.username" placeholder="用户名"></el-input>
         </el-form-item>
